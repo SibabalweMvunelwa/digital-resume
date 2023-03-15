@@ -1,14 +1,52 @@
 body {
     font-family: monaco, "Times New Roman", monospace;
+    font-size: large;
+}
+.navigation {
+    background-color: #0A210F;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-radius: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 3px;
+}
+
+#name {
+    font-size: 40px;
 }
 
 header {
-    height: 300px;
-    background-color: #0000ff;
+    height: 400px;
+    background-color: #14591D;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+article {
+    background-color: #E1E289;
+    margin: 0px;
+    padding: 100px;
     align-items: center;
     justify-content: center;
 }
 
-.portrait {
+.list {
+        display: inline-block;
+        text-align: left;
+}
+
+.heading {
+    text-align: center;
+    margin: 30px;
+}
+
+footer {
+    background-color: #99AA38;
+    margin: 0px;
+    padding: 5px;
 }
