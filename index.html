@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>FT02301_GroupB_SibabalweMvunelwa_PF1</title>
+    <title>FT02301_GroupB_SibabalweMvunelwa_digital-resume</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </linkrel>
@@ -12,19 +12,19 @@
 
  <header>
   
-  <div class="navigation">  
-    <nav name="Sibabalwe Mvunelwa">
-     <a href="#education">Education</a> 
-     <a href="#experience">Experience</a> 
-     <a href="#skills">Skills</a> 
-     <a href="#contact">Contact Details</a>
-    </nav>
+  <div class="grid">
+    <ul>  
+     <li><a href="#education">Education</a></li> 
+     <li><a href="#experience">Experience</a></li> 
+     <li><a href="#skills">Skills</a></li>
+     <li><a href="#contact">Contact Details</a></li>
+    </ul>
   </div>
 
-    <picture id="portrait">
-        <source>
-        <source>
-        <img src=""> 
+    <picture>
+        <source media="(max-width=400px)" srcset="/images/portrait_Medium.jpg">
+        <source media="(max-width=320px)" srcset="/images/portrait_Small.jpg">
+        <img src="images/portrait.jpg" alt="Portrait" id="pic" width="500" height="500"> 
     </picture>
 
   <h1 id="name">Sibabalwe Mvunelwa</h1>
@@ -100,13 +100,54 @@
 
 
  <footer>
-  <div class="Contact">
+
+  <!-- flex1 start -->
+
+  <div class="flex1">
+   <div class="Contact">
     <h2 id="contact">Contact Details</h2>
     <ul>
       <li>Number: 084 538 9432</li>
       <li>Email: sibabalwemvunelwa@gmail.com</li>
     </ul>
+   </div>
+  
+
+   <div class="form">
+    <form action="https://formsubmit.co/el/xowuzi" method="POST"></form>
+    <input type="email" name="email" id="email" placeholder="Type in your email address." required>
+    <select name="subject" id="subject" required>
+        <option value="job-opportunity">Job Opportunity</option>
+        <option value="learn-opportunity">Learning Opportunity</option>
+        <option value="teach-opportunity">Teaching Opportunity</option>
+    </select>
+
+    <textarea name="Context" cols="50" rows="6" placeholder="Type a short message, explaining you proposition"></textarea>
+    
+    <input class="submit" type="submit" value="Send">
+   </div>
   </div>
+
+   <!-- flex1 End -->
+
+   <!-- flex2 Start -->
+
+   <div class="flex2">
+    <a href="https://www.linkedin.com/in/sibabalwe-mvunelwa-951369267" target="_blank"><img src="images/LinkedIn_logo.png" alt="LinkedIn Logo" width="250" height="250"></a>
+   </div>
+
+   <!-- flex2 End -->
+
+   <!-- flex3 Start -->
+
+   <div class="flex3">
+      <a href="https://www.instagram.com/siba.b.goode/" target="_blank"><img src="images/Instagram_logo.png" alt="Instagram Logo" width="250" height="250"></a>
+     </div>
+
+     <!-- flex3 End -->
+
+  </div>
+
  </footer>
 
 
